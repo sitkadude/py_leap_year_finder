@@ -3,7 +3,7 @@ while True:
     try:
         year = int(input("Enter a year: "))
     except ValueError:
-        print("Sorry, that is not a valid year.")
+        print("Sorry, that is not a valid year. Please try again.")
         continue
     else:
         break
